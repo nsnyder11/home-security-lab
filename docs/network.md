@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     subgraph "VirtualBox Host-Only (192.168.56.0/24)"
       KALI[Kali<br>192.168.56.10<br>Attacker]
