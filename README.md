@@ -12,6 +12,7 @@ graph TD
     KALI -->|SQLMap/Burp| DVWA
     META -->|Logs| SIEM
     DVWA -->|Logs| SIEM
+
 Overview
 A self-contained, version-controlled penetration testing and incident response lab built with Vagrant + VirtualBox.
 
