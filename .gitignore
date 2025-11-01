@@ -1,0 +1,15 @@
+# Vagrant & VirtualBox
+.vagrant/
+*.vdi
+*.vmdk
+*.vbox
+*.log
+
+# Scans/Logs
+docs/*.xml
+docs/*.log
+scripts/*.xml
+
+# Temp
+*.tmp
+.DS_Store
