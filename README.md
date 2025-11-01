@@ -11,9 +11,9 @@ graph TD
     KALI -->|Nmap/MSF| META
     KALI -->|SQLMap/Burp| DVWA
     META -->|Logs| SIEM
-    DVWA -->|Logs| SIEM
+    DVWA -->|Logs| SIEM ```
 
-Overview
+Overview:
 A self-contained, version-controlled penetration testing and incident response lab built with Vagrant + VirtualBox.
 
 Kali (192.168.56.10) — Attacker workstation with Nmap, Metasploit, sqlmap, Burp Suite, and more
