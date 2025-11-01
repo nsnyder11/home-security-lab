@@ -1,10 +1,10 @@
 ```mermaid
 graph TD
     subgraph "VirtualBox Host-Only (192.168.56.0/24)"
-      KALI[Kali<br>192.168.56.10<br>Attacker]
-      META[Metasploitable3<br>.20<br>Windows Target]
-      DVWA[DVWA<br>.30<br>Web Vulns]
-      SIEM[SIEM (ELK)<br>.40<br>Logging]
+      KALI["Kali\n192.168.56.10\nAttacker"]
+      META["Metasploitable3\n.20\nWindows Target"]
+      DVWA["DVWA\n.30\nWeb Vulns"]
+      SIEM["SIEM (ELK)\n.40\nLogging"]
     end
     KALI -->|Nmap/MSF| META
     KALI -->|SQLMap/Burp| DVWA
